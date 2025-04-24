@@ -1,3 +1,5 @@
+/*Adi Biton 209355064
+ Tmira Ohana 206451585*/
 body {
     text-align: center;
     font-family: sans-serif;
@@ -142,3 +144,12 @@ input {
 #TO button {
     cursor: pointer;
 }
+
+#FROM .options,
+#TO .options {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
