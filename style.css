@@ -26,9 +26,17 @@ p {
     justify-content: center;
     gap: 40px;
     margin-bottom: 50px;
-    flex-wrap: wrap;          /* הוספתי רק את זה! */
+    flex-wrap: nowrap; 
 }
 
+
+@media (max-width: 600px) {
+    #FROM div,
+    #TO div {
+        flex-wrap: wrap;        
+        gap: 20px;            
+    }
+}
 
 #TO div,
 #result div {
