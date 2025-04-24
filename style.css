@@ -19,14 +19,6 @@ p {
     color: #333;
 }
 
-#FROM div,
-#TO div {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 50px;
-}
-
 #TO div,
 #result div {
     margin-bottom: 300px;
@@ -152,4 +144,13 @@ input {
     gap: 40px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 600px) {
+    #FROM .options button,
+    #TO .options button {
+        min-width: 80px;
+        font-size: 14px;
+    }
+}
+
 
